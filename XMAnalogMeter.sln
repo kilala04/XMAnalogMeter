@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMAnalogMeter.iOS", "XMAnalogMeter\XMAnalogMeter.iOS\XMAnalogMeter.iOS.csproj", "{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XMAnalogMeter", "XMAnalogMeter\XMAnalogMeter\XMAnalogMeter.shproj", "{E955C7D3-2CEB-44A6-9FB7-8A4E55C18986}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XMAnalogMeter\XMAnalogMeter\XMAnalogMeter.projitems*{34216f7f-ed27-42d1-8f1e-cdcaa1ce4b2c}*SharedItemsImports = 4
+		XMAnalogMeter\XMAnalogMeter\XMAnalogMeter.projitems*{e955c7d3-2ceb-44a6-9fb7-8a4e55c18986}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Ad-Hoc|iPhone.Deploy.0 = Ad-Hoc|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Ad-Hoc|iPhoneSimulator.Deploy.0 = Ad-Hoc|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.AppStore|iPhone.Deploy.0 = AppStore|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.AppStore|iPhoneSimulator.Deploy.0 = AppStore|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Release|iPhone.Build.0 = Release|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Release|iPhone.Deploy.0 = Release|iPhone
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{34216F7F-ED27-42D1-8F1E-CDCAA1CE4B2C}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24F6634D-7CF6-42D4-923F-21F0675B997B}
+	EndGlobalSection
+EndGlobal
