@@ -19,6 +19,7 @@ namespace XMAnalogMeter
         {
             System.Diagnostics.Debug.WriteLine("Button Clicked");
             analogmeter.Value = v++;
+            analogmeter2.Value = v++;
 
         }
 
@@ -38,6 +39,7 @@ namespace XMAnalogMeter
 
                     Device.BeginInvokeOnMainThread(() => {
                         analogmeter.Value = tMin + i * tCN;
+                        analogmeter2.Value = tMax - i * tCN;
                     });
 
                     System.Threading.Thread.Sleep(10);
@@ -52,7 +54,8 @@ namespace XMAnalogMeter
                 {
 
                     Device.BeginInvokeOnMainThread(() => {
-                    analogmeter.Value = tMax - i * tCN;
+                        analogmeter.Value = tMax - i * tCN;
+                        analogmeter2.Value = tMax - i * tCN;
                     });
 
                     System.Threading.Thread.Sleep(5);

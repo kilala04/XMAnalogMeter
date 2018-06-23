@@ -157,8 +157,24 @@ namespace XMAnalogMeter.iOS
                 System.Diagnostics.Debug.WriteLine(">>> " + kak.ToString() + " " + pX.ToString() + " " + pY.ToString());
 
 
+                //value string
+                if (Element.viewvalu)
+                {
+                    NSString stn = new NSString(val.ToString() + Element.unitString);
+                    var attr = new UIStringAttributes
+                    {
+                        ForegroundColor = UIColor.White ,//文字色
+                        BackgroundColor = UIColor.Clear,//背景色
+                        Font = UIFont.FromName("Courier-Italic", Element.valuestringSize) //フォント Courier 20ポイント
+                    };
+                    CGSize sz1 = stn.GetSizeUsingAttributes(attr);
+                    stn.DrawString(new CGPoint(bX + bX * .1, bX+bX*.2), attr);
 
-              
+
+
+                }
+
+
             }
 
 

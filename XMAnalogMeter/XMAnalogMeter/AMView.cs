@@ -98,8 +98,39 @@ namespace XMAnalogMeter
             set { SetValue(meterSizeProperty, value); }
         }
 
+        //値表示
+        public static readonly BindableProperty viewvalueProperty =
+                               BindableProperty.Create(nameof(viewvalu), typeof(Boolean), typeof(AMView), (Boolean)true,
+                                                       propertyChanged: (bindable, oldValue, newValue) =>
+                                                          ((AMView)bindable).viewvalu = (Boolean)newValue);
+        public Boolean viewvalu
+        {
+            get { return (Boolean)GetValue(viewvalueProperty); }
+            set { SetValue(viewvalueProperty, value); }
+        }
+
+        //値の文字のサイズ（ポイント）
+        public static readonly BindableProperty valuestringSizeProperty =
+                               BindableProperty.Create(nameof(valuestringSize), typeof(float), typeof(AMView), (float)20,
+                                                       propertyChanged: (bindable, oldValue, newValue) =>
+                                                          ((AMView)bindable).valuestringSize = (float)newValue);
+        public float valuestringSize
+        {
+            get { return (float)GetValue(valuestringSizeProperty); }
+            set { SetValue(valuestringSizeProperty, value); }
+        }
 
 
+        //unitString 表示単位
+        public static readonly BindableProperty unitStringProperty =
+                               BindableProperty.Create(nameof(unitString), typeof(string), typeof(AMView), (string)"",
+                                                       propertyChanged: (bindable, oldValue, newValue) =>
+                                                          ((AMView)bindable).unitString = (string)newValue);
+        public string unitString
+        {
+            get { return (string)GetValue(unitStringProperty); }
+            set { SetValue(unitStringProperty, value); }
+        }
 
 
 

@@ -6,9 +6,12 @@
     <ContentPage.Content>
 
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <local:AMView  x:Name="analogmeter" HeightRequest="300" WidthRequest="300"
-                           minAngle="30" maxAngle="330" meterSize="280"/>
+            <local:AMView  x:Name="analogmeter" HeightRequest="100" WidthRequest="100"
+                           minAngle="0" maxAngle="270" meterSize="100" unitString="%" />
             <Button x:Name="btn" Clicked="btn_click" Text="value++"></Button>
+            <local:AMView2  x:Name="analogmeter2" HeightRequest="120" WidthRequest="200"
+                            meterSize="200" basecolor="Azure"  unitString="%" Value="12.5"
+                            valuestringSize="30" />
 
         </StackLayout>
 
